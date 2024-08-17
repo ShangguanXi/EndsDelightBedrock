@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "ends_delight:ender_sausage"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "ends_delight:raw_ender_sausage",
+        "output": "ends_delight:ender_sausage"
+    }
+}

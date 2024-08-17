@@ -121,7 +121,8 @@
             "minecraft:custom_components": [
                 "farmersdelight:stove"
             ],
-            "minecraft:geometry": "geometry.block"
+            "minecraft:geometry": "geometry.block",
+            "tag:farmersdelight:stove": {}
         }
     }
 }

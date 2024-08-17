@@ -25,6 +25,9 @@ export class Foodsregister {
                         player.runCommand(`spreadplayers ${location.x} ${location.z} 0 5 @s`);
                     }
                     break;
+                case "ends_delight:ender_sausage":
+                    player.addEffect('regeneration', 8 * 20, { amplifier: 1 });
+                    break;
                 case "ends_delight:shulker_meat":
                 case "ends_delight:roasted_shulker_meat":
                     player.addEffect('levitation', 4 * 20, { amplifier: 1 });

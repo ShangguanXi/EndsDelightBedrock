@@ -195,6 +195,9 @@
         },
         "ender_bamboo_rice": {
             "textures": "textures/items/ender_bamboo_rice"
+        },
+        "chorus_sauce": {
+            "textures": "textures/items/chorus_sauce"
         }
     },
     "texture_name": "atlas.items"

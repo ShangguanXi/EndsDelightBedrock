@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:raw_ender_sausage"
+        },
+        "key": {
+            "a": {
+                "tag": "ends_delight:raw_dragon_meat"
+            },
+            "s": {
+                "item": "ends_delight:enderman_gristle"
+            },
+            "d": {
+                "item": "ends_delight:chorus_sauce"
+            }
+        },
+        "pattern": [
+            "sa",
+            "d"
+        ],
+        "result": {
+            "item": "ends_delight:raw_ender_sausage"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

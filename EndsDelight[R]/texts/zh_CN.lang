@@ -66,6 +66,8 @@ tile.ends_delight:dragon_leg_with_sauce_block.name=浇汁龙腿
 item.ends_delight:dragon_leg_with_sauce_block_item=浇汁龙腿
 tile.ends_delight:chorus_fruit_crate.name=箱装紫颂果,
 
+item.ends_delight:chorus_sauce=紫颂酱
+
 item.ends_delight:enderman_gristle=末影人脆骨
 
 item.ends_delight:raw_ender_sausage=生末影肉肠
