@@ -11,9 +11,6 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "chorus_succulent"
-                },
-                "chorus_succulent2": {
-                    "texture": "chorus_succulent_2"
                 }
             },
             "minecraft:light_dampening": 0,
