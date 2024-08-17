@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "ends_delight:aggregate_scatter_chorus_succulent_feature"
+        },
+        "features": [
+            "ends_delight:scatter_chorus_succulent_1_feature",
+            "ends_delight:scatter_chorus_succulent_2_feature",
+            "ends_delight:scatter_chorus_succulent_3_feature"
+        ]
+    }
+}

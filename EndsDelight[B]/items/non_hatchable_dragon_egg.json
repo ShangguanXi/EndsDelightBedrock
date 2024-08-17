@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "non_hatchable_dragon_egg"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cut.item.minecraft:nether_star"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:non_hatchable_dragon_egg",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.items"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 18,
+        "saturation_modifier": 0.5,
+        "using_converts_to": "minecraft:bowl"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "roasted_dragon_steak"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:roasted_dragon_steak",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

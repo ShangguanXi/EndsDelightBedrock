@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "ender_pearl_grain"
+        }
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:ender_pearl_grain",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.items"
+      }
+    }
+  }
+}

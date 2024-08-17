@@ -1,0 +1,74 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "succulent_and_fruit": {
+      "textures": "textures/blocks/succulent_and_fruit"
+    },
+    "steamed_dragon_egg_detail": {
+      "textures": "textures/blocks/steamed_dragon_egg_detail"
+    },
+    "shulker": {
+      "textures": "textures/blocks/shulker"
+    },
+    "grilled_shulker": {
+      "textures": "textures/blocks/grilled_shulker"
+    },
+    "end_stove_top_on": {
+      "textures": "textures/blocks/end_stove_top_on"
+    },
+    "end_stove_top": {
+      "textures": "textures/blocks/end_stove_top"
+    },
+    "end_stove_side": {
+      "textures": "textures/blocks/end_stove_side"
+    },
+    "end_stove_front_on": {
+      "textures": "textures/blocks/end_stove_front_on"
+    },
+    "end_stove_front": {
+      "textures": "textures/blocks/end_stove_front"
+    },
+    "end_stove_bottom": {
+      "textures": "textures/blocks/end_stove_bottom"
+    },
+    "dragon_meat_stew_detail": {
+      "textures": "textures/blocks/dragon_meat_stew_detail"
+    },
+    "dragon_leg_tray_leftover": {
+      "textures": "textures/blocks/dragon_leg_tray_leftover"
+    },
+    "dragon_leg_tray": {
+      "textures": "textures/blocks/dragon_leg_tray"
+    },
+    "dragon_leg_2": {
+      "textures": "textures/blocks/dragon_leg_2"
+    },
+    "dragon_leg_1": {
+      "textures": "textures/blocks/dragon_leg_1"
+    },
+    "dragon_bone": {
+      "textures": "textures/blocks/dragon_bone"
+    },
+    "chorus_succulent_2": {
+      "textures": "textures/blocks/chorus_succulent_2"
+    },
+    "chorus_succulent": {
+      "textures": "textures/blocks/chorus_succulent"
+    },
+    "chorus_fruit_pie_top": {
+      "textures": "textures/blocks/chorus_fruit_pie_top"
+    },
+    "chorus_fruit_pie_inner": {
+      "textures": "textures/blocks/chorus_fruit_pie_inner"
+    },
+    "chorus_fruit_crate_top": {
+      "textures": "textures/blocks/chorus_fruit_crate_top"
+    },
+    "chorus_fruit_crate_side": {
+      "textures": "textures/blocks/chorus_fruit_crate_side"
+    }
+  },
+  "texture_name": "atlas.terrain"
+}

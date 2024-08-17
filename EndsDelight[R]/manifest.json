@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "37022D7E-8C68-0FEC-45C4-D23FA5134A58",
+        "version": [
+            2,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ]
+    },
+    "modules": [
+        {
+            "description": "末地乐事",
+            "type": "resources",
+            "uuid": "F9A63B22-1CEC-D715-21D1-CAE3AD35C8DB",
+            "version": [
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Moaswies"
+        ]
+    },
+    "dependencies": [
+        {
+            "uuid": "B14B5590-E337-2FC1-2354-0EB4B27D2B87",
+            "version": [
+                2,
+                1,
+                0
+            ]
+        }
+    ]
+}

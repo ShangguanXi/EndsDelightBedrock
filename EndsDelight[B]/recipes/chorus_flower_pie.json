@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:chorus_flower_pie"
+        },
+        "ingredients": [
+            {
+                "tag": "farmersdelight:is_dough"
+            },
+            {
+                "item": "ends_delight:dried_chorus_flower"
+            },
+            {
+                "item": "ends_delight:dried_chorus_flower"
+            },
+            {
+                "item": "minecraft:red_flower",
+                "data":0
+            },
+            {
+                "item": "minecraft:sugar"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "ends_delight:chorus_flower_pie"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

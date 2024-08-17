@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:stuffed_rice_cake"
+        },
+        "ingredients": [
+            {
+                "tag": "farmersdelight:is_rice"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "ends_delight:chorus_fruit_grain"
+            }
+        ],
+        "result": {
+            "count": 2,
+            "item": "ends_delight:stuffed_rice_cake"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

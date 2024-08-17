@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:dragon_egg_shell_knife"
+        },
+        "key": {
+            "a": {
+                "item": "ends_delight:dragon_egg_shell"
+            },
+            "b": {
+                "item": "minecraft:popped_chorus_fruit"
+            }
+        },
+        "pattern": [
+            "a",
+            "b"
+        ],
+        "result": {
+            "item": "ends_delight:dragon_egg_shell_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

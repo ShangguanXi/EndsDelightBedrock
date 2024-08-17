@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:grilled_shulker_block"
+        },
+        "key": {
+            "q": {
+                "item": "ends_delight:roasted_shulker_meat"
+            },
+            "w": {
+                "item": "minecraft:chorus_fruit"
+            },
+            "z": {
+                "item": "ends_delight:chorus_succulent"
+            },
+            "j": {
+                "tag": "farmersdelight:is_tomato"
+            },
+            "y": {
+                "tag": "farmersdelight:is_onion"
+            },
+            "x": {
+                "item": "minecraft:shulker_shell"
+            }
+        },
+        "pattern": [
+            "zyz",
+            "jqw",
+            " x "
+        ],
+        "result": {
+            "item": "ends_delight:grilled_shulker_block"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

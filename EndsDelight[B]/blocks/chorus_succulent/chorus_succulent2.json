@@ -1,0 +1,56 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ends_delight:chorus_succulent2",
+            "menu_category": {
+                "category": "none"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "chorus_succulent"
+                },
+                "chorus_succulent2": {
+                    "texture": "chorus_succulent_2"
+                }
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 5,
+            "minecraft:geometry": "geometry.chorus_succulent_2",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/ends_delight/block/chorus_succulent2.json",
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -4.0,
+                    0.0,
+                    -4.0
+                ],
+                "size": [
+                    10.0,
+                    5.0,
+                    10.0
+                ]
+            },
+            "minecraft:custom_components": [
+                "ends_delight:chorus_succulent"
+            ]
+        }
+    }
+}

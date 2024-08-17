@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 6,
+        "saturation_modifier": 0.6
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "roasted_dragon_meat_cuts"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "ends_delight:roasted_dragon_meat"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:roasted_dragon_meat_cuts",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.cookedFood"
+      }
+    }
+  }
+}

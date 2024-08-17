@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 4,
+        "saturation_modifier": 0.5
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "shulker_meat"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cut.tag.farmersdelight:is_knife",
+          "ends_delight:shulker_meat",
+          "farmersdelight:can_cook"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:shulker_meat",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.rawFood"
+      }
+    }
+  }
+}

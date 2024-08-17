@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:end_barbecue_stick"
+        },
+        "ingredients": [
+            {
+                "item": "ends_delight:roasted_shulker_meat"
+            },
+            {
+                "tag": "ends_delight:roasted_dragon_meat"
+            },
+            {
+                "item": "minecraft:chorus_fruit"
+            },
+            {
+                "item": "ends_delight:dried_endermite_meat"
+            },
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "count": 3,
+            "item": "ends_delight:end_barbecue_stick"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

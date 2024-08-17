@@ -1,0 +1,926 @@
+{
+  "bubble_tea": {
+    "type": "image",
+    "texture": "textures/gui/bubble_tea_anim",
+    "uv": "@bubble_tea_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "bubble_tea_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "raw_dragon_meat": {
+    "type": "image",
+    "texture": "textures/gui/raw_dragon_meat_anim",
+    "uv": "@raw_dragon_meat_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "raw_dragon_meat_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "shulker_meat": {
+    "type": "image",
+    "texture": "textures/gui/shulker_meat_anim",
+    "uv": "@shulker_meat_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "shulker_meat_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "endsdelight_recipe_part_0": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "bubble_tea@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.bubble_tea": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/ender_pearl_grain"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/milk_bottle"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bubble_tea"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chorus_flower_tea@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/ghast_tear",
+                "$cell1": "textures/items/dried_chorus_flower",
+                "$container": "textures/items/potion_bottle_empty",
+                "$result": "textures/items/chorus_flower_tea"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_0": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_0"
+  },
+  "endsdelight_recipe_part_1": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "chorus_fruit_milk_tea@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.bubble_tea": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/milk_bottle"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_fruit_milk_tea"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chorus_fruit_wine@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cell0@chest.bubble_tea": {
+                "offset": [
+                  -23,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ]
+              }
+            },
+            {
+              "cell1@chest.bubble_tea": {
+                "offset": [
+                  -14.625,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ]
+              }
+            },
+            {
+              "cell2": {
+                "type": "image",
+                "offset": [
+                  -6.25,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/sugar"
+              }
+            },
+            {
+              "container": {
+                "type": "image",
+                "offset": [
+                  6,
+                  10.875
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/potion_bottle_empty"
+              }
+            },
+            {
+              "result": {
+                "type": "image",
+                "offset": [
+                  21,
+                  -5.25
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/chorus_fruit_wine"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_1": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_1"
+  },
+ 
+  "endsdelight_recipe_part_2": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "dragon_breath_and_chorus_soup@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/chorus_fruit",
+                "$cell1": "textures/items/chorus_fruit",
+                "$cell2": "textures/items/dragons_breath",
+                "$cell3": "textures/items/suspicious_stew",
+                "$cell4": "textures/gui/chorus_flower",
+                "$result": "textures/items/dragon_breath_and_chorus_soup"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "dragon_meat_stew_block@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cell0@chest.raw_dragon_meat": {
+                "type": "image",
+                "offset": [
+                  -23,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ]
+              }
+            },
+            {
+              "cell1": {
+                "type": "image",
+                "offset": [
+                  -14.625,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/chorus_fruit"
+              }
+            },
+            {
+              "cell2": {
+                "type": "image",
+                "offset": [
+                  -6.25,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/chorus_succulent"
+              }
+            },
+            {
+              "cell3": {
+                "type": "image",
+                "offset": [
+                  -23,
+                  1.5
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/carrot"
+              }
+            },
+            {
+              "cell4": {
+                "type": "image",
+                "offset": [
+                  -14.625,
+                  1.5
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/potato"
+              }
+            },
+            {
+              "cell5": {
+                "type": "image",
+                "offset": [
+                  -6.25,
+                  1.5
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/tomato"
+              }
+            },
+            {
+              "container": {
+                "type": "image",
+                "offset": [
+                  6,
+                  10.875
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/half_dragon_egg_shell"
+              }
+            },
+            {
+              "result": {
+                "type": "image",
+                "offset": [
+                  21,
+                  -5.25
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/dragon_meat_stew_block"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_2": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_2"
+  },
+  "endsdelight_recipe_part_3": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "ender_congee@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/ender_pearl_grain",
+                "$cell1": "textures/items/dried_endermite_meat",
+                "$cell2": "textures/items/rice",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/ender_congee"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ender_sauce@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.bubble_tea": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_succulent"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/ender_sauce"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_3": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_3"
+  },
+  "endsdelight_recipe_part_4": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "steamed_dragon_egg_block_item@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.shulker_meat": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_fruit"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/liquid_dragon_egg"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/blocks/mushroom_brown"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_succulent"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/half_dragon_egg_shell"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/steamed_dragon_egg_block"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "stir_fried_shulker_meat@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.shulker_meat": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@chest.bubble_tea": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    },
+                    "texture": "textures/items/tomato"
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/stir_fried_shulker_meat"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_4": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_4"
+  },
+  "recipe_grid_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "endsdelight_recipe_grid_0@chest.endsdelight_recipe_grid_0": {}
+          } ,
+          {
+            "endsdelight_recipe_grid_1@chest.endsdelight_recipe_grid_1": {}
+          },
+          {
+            "endsdelight_recipe_grid_2@chest.endsdelight_recipe_grid_2": {}
+          },
+          {
+            "endsdelight_recipe_grid_3@chest.endsdelight_recipe_grid_3": {}
+          },
+          {
+            "endsdelight_recipe_grid_4@chest.endsdelight_recipe_grid_4": {}
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.5,
+        "using_converts_to": "minecraft:glass_bottle"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "chorus_flower_tea"
+        }
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:chorus_flower_tea",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

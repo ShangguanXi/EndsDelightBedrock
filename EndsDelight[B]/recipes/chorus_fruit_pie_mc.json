@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:chorus_fruit_pie_mc"
+        },
+        "key": {
+            "a": {
+                "item": "farmersdelight:pie_crust"
+            },
+            "s": {
+                "item": "minecraft:wheat"
+            },
+            "d": {
+                "item": "minecraft:red_flower",
+                "data":0
+            },
+            "f": {
+                "item": "minecraft:chorus_fruit"
+            },
+            "g": {
+                "item": "minecraft:chorus_flower"
+            },
+            "h": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "pattern": [
+            "sss",
+            "dfg",
+            "hah"
+        ],
+        "result": {
+            "item": "ends_delight:chorus_fruit_pie"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

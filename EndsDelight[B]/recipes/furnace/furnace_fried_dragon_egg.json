@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "ends_delight:fried_dragon_egg"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "ends_delight:liquid_dragon_egg",
+        "output": "ends_delight:fried_dragon_egg"
+    }
+}

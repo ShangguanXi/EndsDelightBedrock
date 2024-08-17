@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "ends_delight:roasted_shulker_meat_slice"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "ends_delight:shulker_meat_slice",
+        "output": "ends_delight:roasted_shulker_meat_slice"
+    }
+}

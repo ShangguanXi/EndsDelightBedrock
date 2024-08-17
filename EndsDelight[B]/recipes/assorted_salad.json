@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:assorted_salad"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:chorus_fruit"
+            },
+            {
+                "item": "ends_delight:chorus_succulent"
+            },
+            {
+                "item": "minecraft:crimson_fungus"
+            },
+            {
+                "item": "minecraft:warped_fungus"
+            },
+            {
+                "tag": "farmersdelight:is_cabbage"
+            },
+            {
+                "tag": "farmersdelight:is_tomato"
+            },
+            {
+                "item": "ends_delight:dragon_egg_shell"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "ends_delight:assorted_salad"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

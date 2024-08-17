@@ -1,0 +1,34 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 3,
+        "saturation_modifier": 0.3
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "raw_dragon_meat_cuts"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cook",
+          "ends_delight:raw_dragon_meat"
+        ]
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:raw_dragon_meat_cuts",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.rawFood"
+      }
+    }
+  }
+}

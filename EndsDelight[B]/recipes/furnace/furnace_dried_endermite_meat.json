@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "ends_delight:dried_endermite_meat"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "ends_delight:raw_ender_mite_meat",
+        "output": "ends_delight:dried_endermite_meat"
+    }
+}

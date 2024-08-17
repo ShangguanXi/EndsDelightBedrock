@@ -1,0 +1,361 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ends_delight:dragon_leg_with_sauce_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "farmersdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_1",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_2",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_3",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_4",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_5",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            13.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 5",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_6",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            8.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            8.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 6",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_7",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            5.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            5.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 7",
+                "components": {
+                    "minecraft:geometry": "geometry.ender_sauce_roasted_dragon_leg_block_8",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            2.0,
+                            16.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8.0,
+                            0.0,
+                            -8.0
+                        ],
+                        "size": [
+                            16.0,
+                            2.0,
+                            16.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "farmersdelight:interact"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.25
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dragon_egg",
+                    "render_method": "alpha_test"
+                },
+                "dragon_leg_tray": {
+                    "texture": "dragon_leg_tray",
+                    "render_method": "alpha_test"
+                },
+                "dragon_leg_tray_leftover": {
+                    "texture": "dragon_leg_tray_leftover",
+                    "render_method": "alpha_test"
+                },
+                "dragon_leg_1": {
+                    "texture": "dragon_leg_1",
+                    "render_method": "alpha_test"
+                },
+                "dragon_leg_2": {
+                    "texture": "dragon_leg_2",
+                    "render_method": "alpha_test"
+                },
+                "dragon_bone": {
+                    "texture": "dragon_bone",
+                    "render_method": "alpha_test"
+                }
+            },
+            "tag:farmersdelight.blockfood:7-item.minecraft:bowl": {},
+            "tag:farmersdelight:blockfood": {}
+        }
+    }
+}

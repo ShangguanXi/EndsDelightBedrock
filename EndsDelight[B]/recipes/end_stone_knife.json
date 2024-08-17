@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:end_stone_knife"
+        },
+        "key": {
+            "r": {
+                "item": "minecraft:end_stone"
+            },
+            "s": {
+                "item": "minecraft:popped_chorus_fruit"
+            }
+        },
+        "pattern": [
+            "r",
+            "s"
+        ],
+        "result": {
+            "item": "ends_delight:end_stone_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

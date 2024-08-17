@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:purpur_knife"
+        },
+        "key": {
+            "d": {
+                "item": "minecraft:popped_chorus_fruit"
+            }
+        },
+        "pattern": [
+            "d",
+            "d"
+        ],
+        "result": {
+            "item": "ends_delight:purpur_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

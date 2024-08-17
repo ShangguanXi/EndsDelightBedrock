@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:end_mixed_salad"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:chorus_fruit"
+            },
+            {
+                "item": "ends_delight:chorus_succulent"
+            },
+            {
+                "item": "ends_delight:chorus_succulent"
+            },
+            {
+                "tag": "farmersdelight:is_cabbage"
+            },
+            {
+                "tag": "farmersdelight:is_tomato"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "ends_delight:end_mixed_salad"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "ends_delight:chorus_fruit_pie_block"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "chorus_fruit_pie"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cut.tag.farmersdelight:is_knife"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:chorus_fruit_pie",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

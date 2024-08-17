@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:roasted_dragon_steak"
+        },
+        "ingredients": [
+            {
+                "item": "ends_delight:ender_sauce"
+            },
+            {
+                "tag": "ends_delight:raw_dragon_meat"
+            },
+            {
+                "tag": "farmersdelight:is_tomato"
+            },
+            {
+                "item": "minecraft:warped_fungus"
+            },
+            {
+                "item": "minecraft:crimson_fungus"
+            },
+            {
+                "item": "minecraft:chorus_fruit"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": {
+            "item": "ends_delight:roasted_dragon_steak"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

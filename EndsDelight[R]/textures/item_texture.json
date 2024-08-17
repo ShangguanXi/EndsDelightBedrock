@@ -1,0 +1,174 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "stuffed_rice_cake": {
+            "textures": "textures/items/stuffed_rice_cake"
+        },
+        "stir_fried_shulker_meat": {
+            "textures": "textures/items/stir_fried_shulker_meat"
+        },
+        "steamed_dragon_egg_block": {
+            "textures": "textures/items/steamed_dragon_egg_block"
+        },
+        "steamed_dragon_egg": {
+            "textures": "textures/items/steamed_dragon_egg"
+        },
+        "smoked_dragon_leg": {
+            "textures": "textures/items/smoked_dragon_leg"
+        },
+        "shulker_meat_slice": {
+            "textures": "textures/items/shulker_meat_slice"
+        },
+        "shulker_meat": {
+            "textures": "textures/items/shulker_meat"
+        },
+        "roasted_shulker_meat_slice": {
+            "textures": "textures/items/roasted_shulker_meat_slice"
+        },
+        "roasted_shulker_meat": {
+            "textures": "textures/items/roasted_shulker_meat"
+        },
+        "roasted_ender_mite_meat": {
+            "textures": "textures/items/roasted_ender_mite_meat"
+        },
+        "roasted_dragon_steak": {
+            "textures": "textures/items/roasted_dragon_steak"
+        },
+        "roasted_dragon_meat_cuts": {
+            "textures": "textures/items/roasted_dragon_meat_cuts"
+        },
+        "roasted_dragon_meat": {
+            "textures": "textures/items/roasted_dragon_meat"
+        },
+        "raw_ender_mite_meat": {
+            "textures": "textures/items/raw_ender_mite_meat"
+        },
+        "raw_dragon_meat_cuts": {
+            "textures": "textures/items/raw_dragon_meat_cuts"
+        },
+        "raw_dragon_meat": {
+            "textures": "textures/items/raw_dragon_meat"
+        },
+        "purpur_knife": {
+            "textures": "textures/items/purpur_knife"
+        },
+        "non_hatchable_dragon_egg": {
+            "textures": "textures/items/non_hatchable_dragon_egg"
+        },
+        "liquid_dragon_egg_in_shell": {
+            "textures": "textures/items/liquid_dragon_egg_in_shell"
+        },
+        "liquid_dragon_egg": {
+            "textures": "textures/items/liquid_dragon_egg"
+        },
+        "half_dragon_egg_shell": {
+            "textures": "textures/items/half_dragon_egg_shell"
+        },
+        "grilled_shulker_block": {
+            "textures": "textures/items/grilled_shulker_block"
+        },
+        "grilled_shulker": {
+            "textures": "textures/items/grilled_shulker"
+        },
+        "fried_dragon_egg": {
+            "textures": "textures/items/fried_dragon_egg"
+        },
+        "end_stone_knife": {
+            "textures": "textures/items/end_stone_knife"
+        },
+        "end_mixed_salad": {
+            "textures": "textures/items/end_mixed_salad"
+        },
+        "end_barbecue_stick": {
+            "textures": "textures/items/end_barbecue_stick"
+        },
+        "ender_sauce": {
+            "textures": "textures/items/ender_sauce"
+        },
+        "ender_pearl_grain": {
+            "textures": "textures/items/ender_pearl_grain"
+        },
+        "ender_congee": {
+            "textures": "textures/items/ender_congee"
+        },
+        "dried_endermite_meat": {
+            "textures": "textures/items/dried_endermite_meat"
+        },
+        "dried_chorus_flower": {
+            "textures": "textures/items/dried_chorus_flower"
+        },
+        "dragon_tooth_knife": {
+            "textures": "textures/items/dragon_tooth_knife"
+        },
+        "dragon_tooth": {
+            "textures": "textures/items/dragon_tooth"
+        },
+        "dragon_meat_stew_block": {
+            "textures": "textures/items/dragon_meat_stew_block"
+        },
+        "dragon_meat_stew": {
+            "textures": "textures/items/dragon_meat_stew"
+        },
+        "dragon_leg_with_sauce_block": {
+            "textures": "textures/items/dragon_leg_with_sauce_block"
+        },
+        "dragon_leg_with_sauce": {
+            "textures": "textures/items/dragon_leg_with_sauce"
+        },
+        "dragon_leg": {
+            "textures": "textures/items/dragon_leg"
+        },
+        "dragon_egg_shell_knife": {
+            "textures": "textures/items/dragon_egg_shell_knife"
+        },
+        "dragon_egg_shell": {
+            "textures": "textures/items/dragon_egg_shell"
+        },
+        "dragon_breath_soda": {
+            "textures": "textures/items/dragon_breath_soda"
+        },
+        "dragon_breath_and_chorus_soup": {
+            "textures": "textures/items/dragon_breath_and_chorus_soup"
+        },
+        "chorus_succulent": {
+            "textures": "textures/items/chorus_succulent"
+        },
+        "chorus_succulent_2": {
+            "textures": "textures/items/chorus_succulent_2"
+        },
+        "chorus_fruit_wine": {
+            "textures": "textures/items/chorus_fruit_wine"
+        },
+        "chorus_fruit_popsicle": {
+            "textures": "textures/items/chorus_fruit_popsicle"
+        },
+        "chorus_fruit_pie_slice": {
+            "textures": "textures/items/chorus_fruit_pie_slice"
+        },
+        "chorus_fruit_pie": {
+            "textures": "textures/items/chorus_fruit_pie"
+        },
+        "chorus_fruit_milk_tea": {
+            "textures": "textures/items/chorus_fruit_milk_tea"
+        },
+        "chorus_fruit_grain": {
+            "textures": "textures/items/chorus_fruit_grain"
+        },
+        "chorus_flower_tea": {
+            "textures": "textures/items/chorus_flower_tea"
+        },
+        "chorus_flower_pie": {
+            "textures": "textures/items/chorus_flower_pie"
+        },
+        "chorus_cookie": {
+            "textures": "textures/items/chorus_cookie"
+        },
+        "bubble_tea": {
+            "textures": "textures/items/bubble_tea"
+        },
+        "assorted_salad": {
+            "textures": "textures/items/assorted_salad"
+        }
+    },
+    "texture_name": "atlas.items"
+}

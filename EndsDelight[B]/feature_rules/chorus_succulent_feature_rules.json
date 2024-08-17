@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ends_delight:chorus_succulent_feature_rules",
+			"places_feature": "ends_delight:aggregate_scatter_chorus_succulent_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "the_end"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 10.0,
+			"coordinate_eval_order": "xzy",
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	}
+}

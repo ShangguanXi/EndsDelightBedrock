@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "ends_delight:dragon_breath_soda"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:dragon_breath"
+            },
+            {
+                "item": "minecraft:sugar"
+            }
+        ],
+        "result": {
+            "item": "ends_delight:dragon_breath_soda"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

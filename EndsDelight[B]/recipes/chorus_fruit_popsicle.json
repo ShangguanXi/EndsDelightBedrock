@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:chorus_fruit_popsicle"
+        },
+        "key": {
+            "a": {
+                "item": "ends_delight:chorus_fruit_grain"
+            },
+            "x": {
+                "item": "minecraft:ice"
+            },
+            "d": {
+                "item": "minecraft:stick"
+            }
+        },
+        "pattern": [
+            " aa",
+            "xaa",
+            "dx "
+        ],
+        "result": {
+            "item": "ends_delight:chorus_fruit_popsicle"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

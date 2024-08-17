@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:dragon_tooth_knife"
+        },
+        "key": {
+            "a": {
+                "item": "ends_delight:dragon_tooth"
+            },
+            "w": {
+                "item": "minecraft:popped_chorus_fruit"
+            }
+        },
+        "pattern": [
+            "a",
+            "w"
+        ],
+        "result": {
+            "item": "ends_delight:dragon_tooth_knife"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

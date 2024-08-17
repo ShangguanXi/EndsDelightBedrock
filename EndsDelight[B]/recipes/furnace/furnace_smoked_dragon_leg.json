@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "ends_delight:smoked_dragon_leg"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "ends_delight:dragon_leg",
+        "output": "ends_delight:smoked_dragon_leg"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ends_delight:dragon_leg_with_sauce_block"
+        },
+        "key": {
+            "a": {
+                "tag": "farmersdelight:is_tomato"
+            },
+            "t": {
+                "item": "ends_delight:ender_sauce"
+            },
+            "u": {
+                "item": "minecraft:crimson_fungus"
+            },
+            "s": {
+                "item": "ends_delight:smoked_dragon_leg"
+            },
+            "d": {
+                "item": "minecraft:warped_fungus"
+            },
+            "v": {
+                "item": "minecraft:chorus_fruit"
+            }
+        },
+        "pattern": [
+            "ata",
+            "usu",
+            "dvd"
+        ],
+        "result": {
+            "item": "ends_delight:dragon_leg_with_sauce_block"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

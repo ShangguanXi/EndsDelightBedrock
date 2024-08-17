@@ -1,0 +1,140 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ender_sauce_roasted_dragon_leg_block_3",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8]
+				},
+				{
+					"name": "layer1",
+					"parent": "bone",
+					"pivot": [0, 1, -8.5],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 2, 15],
+							"uv": {
+								"north": {"uv": [0, 32], "uv_size": [16, -2],"material_instance": "dragon_leg_tray"},
+								"up": {"uv": [16, 15], "uv_size": [-16, -15],"material_instance": "dragon_leg_tray"},
+								"down": {"uv": [32, 32], "uv_size": [-16, -15],"material_instance": "dragon_leg_tray"}
+							}
+						},
+						{
+							"origin": [8, -21, -14],
+							"size": [0, 15, 2],
+							"pivot": [8, 0, -14],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"west": {"uv": [2, 32], "uv_size": [-2, -15],"material_instance": "dragon_leg_tray"}
+							}
+						},
+						{
+							"origin": [-8, -21, -14],
+							"size": [0, 15, 2],
+							"pivot": [0, 0, -14],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"west": {"uv": [2, 32], "uv_size": [-2, -15],"material_instance": "dragon_leg_tray"}
+							}
+						}
+					]
+				},
+				{
+					"name": "layer2",
+					"parent": "bone",
+					"pivot": [0, 1, 5.5],
+					"cubes": [
+						{
+							"origin": [-8, 0, 7],
+							"size": [16, 2, 15],
+							"uv": {
+								"south": {"uv": [0, 32], "uv_size": [16, -2],"material_instance": "dragon_leg_tray"},
+								"up": {"uv": [16, 32], "uv_size": [-16, -15],"material_instance": "dragon_leg_tray"},
+								"down": {"uv": [32, 15], "uv_size": [-16, -15],"material_instance": "dragon_leg_tray"}
+							}
+						},
+						{
+							"origin": [8, -22, 0],
+							"size": [0, 15, 2],
+							"pivot": [8, 0, 0],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"west": {"uv": [2, 17], "uv_size": [-2, 15],"material_instance": "dragon_leg_tray"}
+							}
+						},
+						{
+							"origin": [-8, -22, 0],
+							"size": [0, 15, 2],
+							"pivot": [0, 0, 0],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"west": {"uv": [2, 17], "uv_size": [-2, 15],"material_instance": "dragon_leg_tray"}
+							}
+						}
+					]
+				},
+				{
+					"name": "leg",
+					"parent": "bone",
+					"pivot": [0, 7.5, -8],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-15, 2, -14],
+							"size": [6, 11, 12],
+							"uv": {
+								"north": {"uv": [22, 22], "uv_size": [-6, -11],"material_instance": "dragon_leg_1"},
+								"east": {"uv": [20, 0], "uv_size": [12, 11],"material_instance": "dragon_leg_1"},
+								"south": {"uv": [16, 11], "uv_size": [6, 11],"material_instance": "dragon_leg_1"},
+								"west": {"uv": [0, 11], "uv_size": [12, 11],"material_instance": "dragon_leg_1"},
+								"up": {"uv": [22, 22], "uv_size": [-6, -11],"material_instance": "dragon_leg_1"},
+								"down": {"uv": [32, 23], "uv_size": [-12, 9],"material_instance": "dragon_leg_1"}
+							}
+						}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "leg",
+					"pivot": [-20.75, 7.25, -8],
+					"cubes": [
+						{
+							"origin": [-21, 2, -14],
+							"size": [6, 11, 12],
+							"uv": {
+								"north": {"uv": [18, 0], "uv_size": [6, 11],"material_instance": "dragon_leg_2"},
+								"east": {"uv": [0, 0], "uv_size": [12, 11],"material_instance": "dragon_leg_2"},
+								"south": {"uv": [18, 11], "uv_size": [6, 11],"material_instance": "dragon_leg_2"},
+								"west": {"uv": [0, 11], "uv_size": [12, 11],"material_instance": "dragon_leg_2"},
+								"up": {"uv": [12, 0], "uv_size": [6, 12],"material_instance": "dragon_leg_2"},
+								"down": {"uv": [12, 24], "uv_size": [6, -12],"material_instance": "dragon_leg_2"}
+							}
+						},
+						{
+							"origin": [-27, 5, -10],
+							"size": [7, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [14, 8],"material_instance": "dragon_bone"},
+								"east": {"uv": [0, 16], "uv_size": [8, 8],"material_instance": "dragon_bone"},
+								"south": {"uv": [0, 8], "uv_size": [14, 8],"material_instance": "dragon_bone"},
+								"west": {"uv": [8, 16], "uv_size": [8, 8],"material_instance": "dragon_bone"},
+								"up": {"uv": [14, 0], "uv_size": [14, 8],"material_instance": "dragon_bone"},
+								"down": {"uv": [14, 16], "uv_size": [14, -8],"material_instance": "dragon_bone"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

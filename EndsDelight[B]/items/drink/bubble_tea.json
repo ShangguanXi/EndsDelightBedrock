@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:cooldown": {
+        "category": "ender_pearl",
+        "duration": 1
+      },
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 6,
+        "saturation_modifier": 0.5,
+        "using_converts_to": "minecraft:glass_bottle"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "bubble_tea"
+        }
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:bubble_tea",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}
