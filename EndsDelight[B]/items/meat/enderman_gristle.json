@@ -2,10 +2,19 @@
   "format_version": "1.20.80",
   "minecraft:item": {
     "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.8
+      },
       "minecraft:icon": {
         "textures": {
           "default": "enderman_gristle"
         }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
       }
     },
     "description": {
