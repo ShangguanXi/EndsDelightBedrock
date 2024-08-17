@@ -2,10 +2,6 @@
   "format_version": "1.20.80",
   "minecraft:item": {
     "components": {
-      "minecraft:cooldown": {
-        "category": "chorusfruit",
-        "duration": 1
-      },
       "minecraft:food": {
         "can_always_eat": true,
         "nutrition": 8,
@@ -14,7 +10,7 @@
       },
       "minecraft:icon": {
         "textures": {
-          "default": "shulker_soup"
+          "default": "ender_noodle"
         }
       },
       "minecraft:use_animation": "eat",
@@ -23,7 +19,7 @@
       }
     },
     "description": {
-      "identifier": "ends_delight:shulker_soup",
+      "identifier": "ends_delight:ender_noodle",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.miscFood"

@@ -28,6 +28,13 @@ export class Foodsregister {
                     player.addEffect('levitation', 5 * 20, { amplifier: 1 });
                     player.addEffect('regeneration', 5 * 20, { amplifier: 1 });
                     break;
+                case "ends_delight:ender_bamboo_rice":
+                    player.addEffect('saturation', 180 * 20, { amplifier: 0 });
+                    player.addEffect('regeneration', 15 * 20, { amplifier: 1 });
+                    break;
+                case "ends_delight:ender_noodle":
+                    player.addEffect('levitation', 50, { amplifier: 1 });
+                    break;
                 case "ends_delight:shulker_soup":
                 case "ends_delight:shulker_omelette_mixture":
                     player.addEffect('levitation', 5 * 20, { amplifier: 1 });
