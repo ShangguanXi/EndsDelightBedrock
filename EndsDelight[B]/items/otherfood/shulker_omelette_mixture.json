@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 5,
+        "saturation_modifier": 0.5
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "shulker_omelette_mixture"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cook"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:shulker_omelette_mixture",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

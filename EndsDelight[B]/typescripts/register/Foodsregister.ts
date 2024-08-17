@@ -20,6 +20,18 @@ export class Foodsregister {
                 case "ends_delight:ender_sausage":
                     player.addEffect('regeneration', 8 * 20, { amplifier: 1 });
                     break;
+                case "ends_delight:enderman_gristle_stew":
+                    player.addEffect('saturation', 180 * 20, { amplifier: 0 });
+                    break;
+                case "ends_delight:shulker_soup":
+                case "ends_delight:shulker_omelette":
+                    player.addEffect('levitation', 5 * 20, { amplifier: 1 });
+                    player.addEffect('regeneration', 5 * 20, { amplifier: 1 });
+                    break;
+                case "ends_delight:shulker_soup":
+                case "ends_delight:shulker_omelette_mixture":
+                    player.addEffect('levitation', 5 * 20, { amplifier: 1 });
+                    break;
                 case "ends_delight:shulker_meat":
                 case "ends_delight:roasted_shulker_meat":
                     player.addEffect('levitation', 4 * 20, { amplifier: 1 });

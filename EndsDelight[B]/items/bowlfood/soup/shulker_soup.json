@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "components": {
+      "minecraft:cooldown": {
+        "category": "chorusfruit",
+        "duration": 1
+      },
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 8,
+        "saturation_modifier": 0.6,
+        "using_converts_to": "minecraft:bowl"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "shulker_soup"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      }
+    },
+    "description": {
+      "identifier": "ends_delight:shulker_soup",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}
