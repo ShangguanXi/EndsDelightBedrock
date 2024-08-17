@@ -168,6 +168,33 @@
         },
         "assorted_salad": {
             "textures": "textures/items/assorted_salad"
+        },
+        "enderman_gristle": {
+            "textures": "textures/items/enderman_gristle"
+        },
+        "raw_ender_sausage": {
+            "textures": "textures/items/raw_ender_sausage"
+        },
+        "ender_sausage": {
+            "textures": "textures/items/ender_sausage"
+        },
+        "enderman_gristle_stew": {
+            "textures": "textures/items/enderman_gristle_stew"
+        },
+        "shulker_soup": {
+            "textures": "textures/items/shulker_soup"
+        },
+        "shulker_omelette_mixture": {
+            "textures": "textures/items/shulker_omelette_mixture"
+        },
+        "shulker_omelette": {
+            "textures": "textures/items/shulker_omelette"
+        },
+        "ender_noodle": {
+            "textures": "textures/items/ender_noodle"
+        },
+        "ender_bamboo_rice": {
+            "textures": "textures/items/ender_bamboo_rice"
         }
     },
     "texture_name": "atlas.items"
