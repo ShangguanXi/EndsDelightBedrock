@@ -63,3 +63,14 @@ tile.ends_delight:end_stove.name=Parrilla del End
 tile.ends_delight:dragon_leg_with_sauce_block.name=Pierna de dragón con salsa
 item.ends_delight:dragon_leg_with_sauce_block_item=Pierna de dragón con salsa
 tile.ends_delight:chorus_fruit_crate.name=Cajón de fruta coral
+
+item.ends_delight:chorus_sauce=Salsa de Coro
+item.ends_delight:enderman_gristle=Cartílago de Enderman
+item.ends_delight:raw_ender_sausage=Salchicha de Ender Cruda
+item.ends_delight:ender_sausage=Salchicha de Ender
+item.ends_delight:enderman_gristle_stew=Estofado de Cartílago de Enderman
+item.ends_delight:shulker_soup=Sopa de Shulker
+item.ends_delight:shulker_omelette_mixture=Mezcla para Tortilla de Shulker
+item.ends_delight:shulker_omelette=Tortilla de Shulker
+item.ends_delight:ender_noodle=Fideos de Ender
+item.ends_delight:ender_bamboo_rice=Arroz de Bambú de Ender
