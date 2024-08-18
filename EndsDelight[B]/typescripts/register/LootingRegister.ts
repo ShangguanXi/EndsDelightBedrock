@@ -11,6 +11,7 @@ export class LootingRegister {
         if (!entity || !hurtEntity)
             return;
         const equipment = entity.getComponent(EntityEquippableComponent.componentId);
+        if (!equipment) return;
         const onFire = hurtEntity.getComponent('minecraft:onfire')?.onFireTicksRemaining;
         const mainHand = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
         if (!mainHand?.hasTag('farmersdelight:is_knife')) return;
@@ -20,6 +21,11 @@ export class LootingRegister {
             ItemAPI.spawn(hurtEntity, 'ends_delight:raw_dragon_meat', RandomAPI.RandomInt(3));
             if (RandomAPI.probability(6)) {
                 ItemAPI.spawn(hurtEntity, 'ends_delight:dragon_tooth', RandomAPI.RandomInt(3));
+            }
+        };
+        if (!health?.currentValue && hurtEntity.typeId === 'minecraft:enderman') {
+            if (RandomAPI.probability(35)) {
+                ItemAPI.spawn(hurtEntity, 'ends_delight:enderman_gristle', RandomAPI.RandomInt(3));
             }
         };
         if (!health?.currentValue && hurtEntity.typeId === 'minecraft:shulker') {

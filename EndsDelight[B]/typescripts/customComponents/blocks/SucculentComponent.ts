@@ -22,7 +22,7 @@ class SucculentComponent implements BlockCustomComponent {
         try {
             if (itemId == "minecraft:bone_meal") {
                 world.playSound("item.bone_meal.use", block.location)
-                if (player?.getGameMode() == "creative"&&(block.typeId == "ends_delight:chorus_succulent"||block.typeId == "ends_delight:chorus_succulent2")) {
+                if (player?.getGameMode() == "creative" && (block.typeId == "ends_delight:chorus_succulent" || block.typeId == "ends_delight:chorus_succulent2")) {
                     dimension.spawnParticle("minecraft:crop_growth_emitter", { x: block.location.x + 0.5, y: block.location.y + 0.5, z: block.location.z + 0.5 });
                     dimension.setBlockType(block.location, "ends_delight:chorus_succulent3")
                 }
@@ -41,6 +41,21 @@ class SucculentComponent implements BlockCustomComponent {
                     ItemAPI.clear(player, player?.selectedSlotIndex)
                 }
 
+            };
+            if (itemId == "ends_delight:chorus_succulent_item") {
+                if (block.typeId == "ends_delight:chorus_succulent") {
+                    dimension.setBlockType(block.location, "ends_delight:chorus_succulent2")
+                    if (!container) return;
+                    if (player.getGameMode() == "creative") return;
+                    ItemAPI.clear(player, player?.selectedSlotIndex)
+
+                };
+                if (block.typeId == "ends_delight:chorus_succulent2") {
+                    dimension.setBlockType(block.location, "ends_delight:chorus_succulent3")
+                    if (!container) return;
+                    if (player.getGameMode() == "creative") return;
+                    ItemAPI.clear(player, player?.selectedSlotIndex)
+                }
             }
         } catch (error) {
 

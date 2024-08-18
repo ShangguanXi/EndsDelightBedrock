@@ -21,6 +21,50 @@
     "reversible": true,
     "easing": "linear"
   },
+  "dough": {
+    "type": "image",
+    "texture": "textures/gui/dough_anim",
+    "uv": "@dough_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "dough_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "ender_noodle": {
+    "type": "image",
+    "texture": "textures/gui/ender_noodle_anim",
+    "uv": "@ender_noodle_anim",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "ender_noodle_anim": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 4,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
   "raw_dragon_meat": {
     "type": "image",
     "texture": "textures/gui/raw_dragon_meat_anim",
@@ -348,7 +392,6 @@
     ],
     "grid_item_template": "chest.endsdelight_recipe_part_1"
   },
- 
   "endsdelight_recipe_part_2": {
     "type": "panel",
     "size": [
@@ -553,7 +596,7 @@
         }
       },
       {
-        "ender_sauce@chest.cooking_pot_recipe": {
+        "chorus_sauce@chest.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             -37.5,
@@ -619,7 +662,7 @@
                         7.5,
                         7.5
                       ],
-                      "texture": "textures/items/ender_sauce"
+                      "texture": "textures/items/chorus_sauce"
                     }
                   }
                 ]
@@ -898,6 +941,401 @@
     ],
     "grid_item_template": "chest.endsdelight_recipe_part_4"
   },
+  "endsdelight_recipe_part_5": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "shulker_soup@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.shulker_meat": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/dried_chorus_flower"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_succulent"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/shulker_soup"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "enderman_gristle_stew@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/enderman_gristle",
+                "$cell1": "textures/items/enderman_gristle",
+                "$cell2": "textures/items/dried_chorus_flower",
+                "$cell3": "textures/items/chorus_succulent",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/enderman_gristle_stew"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_5": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_5"
+  },
+  "endsdelight_recipe_part_6": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "ender_bamboo_rice@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@chest.raw_dragon_meat": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bamboo"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/rice"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/chorus_succulent"
+                    }
+                  },
+                  {
+                    "cell5": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/carrot"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/ender_bamboo_rice"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ender_noodle@chest.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cooking_pot_recipe_cell@chest.cooking_pot_recipe_cell": {
+                      "controls": [
+                        {
+                          "cell0@chest.shulker_meat": {
+                            "type": "image",
+                            "offset": [
+                              -23,
+                              -7
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ]
+                          }
+                        },
+                        {
+                          "cell1": {
+                            "type": "image",
+                            "offset": [
+                              -14.625,
+                              -7
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ],
+                            "texture": "textures/items/dried_endermite_meat"
+                          }
+                        },
+                        {
+                          "cell2": {
+                            "type": "image",
+                            "offset": [
+                              -6.25,
+                              -7
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ],
+                            "texture": "textures/items/chorus_sauce"
+                          }
+                        },
+                        {
+                          "cell3@chest.ender_noodle": {
+                            "type": "image",
+                            "offset": [
+                              -23,
+                              1.5
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ]
+                          }
+                        },
+                        {
+                          "cell4@chest.dough": {
+                            "type": "image",
+                            "offset": [
+                              -14.625,
+                              1.5
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ]
+                          }
+                        },
+                        {
+                          "result": {
+                            "type": "image",
+                            "offset": [
+                              21,
+                              -5.25
+                            ],
+                            "size": [
+                              7.5,
+                              7.5
+                            ],
+                            "texture": "textures/items/ender_noodle"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "endsdelight_recipe_grid_6": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_6"
+  },
+  "endsdelight_recipe_grid_7": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "chest.endsdelight_recipe_part_7"
+  },
   "recipe_grid_panel": {
     "modifications": [
       {
@@ -906,7 +1344,7 @@
         "value": [
           {
             "endsdelight_recipe_grid_0@chest.endsdelight_recipe_grid_0": {}
-          } ,
+          },
           {
             "endsdelight_recipe_grid_1@chest.endsdelight_recipe_grid_1": {}
           },
@@ -918,6 +1356,12 @@
           },
           {
             "endsdelight_recipe_grid_4@chest.endsdelight_recipe_grid_4": {}
+          },
+          {
+            "endsdelight_recipe_grid_5@chest.endsdelight_recipe_grid_5": {}
+          },
+          {
+            "endsdelight_recipe_grid_5@chest.endsdelight_recipe_grid_6": {}
           }
         ]
       }

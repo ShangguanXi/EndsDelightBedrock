@@ -47,6 +47,26 @@ class SucculentComponent {
                     ItemAPI.clear(player, player?.selectedSlotIndex);
                 }
             }
+            ;
+            if (itemId == "ends_delight:chorus_succulent_item") {
+                if (block.typeId == "ends_delight:chorus_succulent") {
+                    dimension.setBlockType(block.location, "ends_delight:chorus_succulent2");
+                    if (!container)
+                        return;
+                    if (player.getGameMode() == "creative")
+                        return;
+                    ItemAPI.clear(player, player?.selectedSlotIndex);
+                }
+                ;
+                if (block.typeId == "ends_delight:chorus_succulent2") {
+                    dimension.setBlockType(block.location, "ends_delight:chorus_succulent3");
+                    if (!container)
+                        return;
+                    if (player.getGameMode() == "creative")
+                        return;
+                    ItemAPI.clear(player, player?.selectedSlotIndex);
+                }
+            }
         }
         catch (error) {
         }
