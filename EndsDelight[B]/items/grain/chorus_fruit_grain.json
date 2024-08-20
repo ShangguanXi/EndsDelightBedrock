@@ -20,8 +20,8 @@
     "description": {
       "identifier": "ends_delight:chorus_fruit_grain",
       "menu_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "category": "nature",
+        "group": "itemGroup.name.crop"
       }
     }
   }

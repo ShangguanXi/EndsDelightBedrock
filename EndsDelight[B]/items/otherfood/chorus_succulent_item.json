@@ -24,7 +24,7 @@
       "identifier": "ends_delight:chorus_succulent_item",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.rawFood"
+        "group": "itemGroup.name.crop"
       }
     }
   }
