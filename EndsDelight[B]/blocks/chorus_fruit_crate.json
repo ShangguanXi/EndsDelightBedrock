@@ -4,7 +4,8 @@
         "description": {
             "identifier": "ends_delight:chorus_fruit_crate",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group":"itemGroup.ends_delight.items"
             }
         },
         "components": {
