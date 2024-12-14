@@ -116,7 +116,7 @@
         "repair_items": [
           {
             "items": [
-              "ends_delight:dragon_egg_shell_knife"
+              "ends_delight:half_dragon_egg_shell"
             ],
             "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
           },

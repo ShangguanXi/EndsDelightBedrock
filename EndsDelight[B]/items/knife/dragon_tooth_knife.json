@@ -122,7 +122,7 @@
           },
           {
             "items": [
-              "ends_delight:dragon_tooth"
+              "minecraft:bone_block"
             ],
             "repair_amount": "query.max_durability * 0.25"
           }
