@@ -21,7 +21,7 @@
       "identifier": "ends_delight:enderman_gristle",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.items"
+        "group": "ends_delight:itemGroup.name.miscItem"
       }
     }
   }

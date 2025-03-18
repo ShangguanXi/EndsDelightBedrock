@@ -22,7 +22,7 @@
       "identifier": "ends_delight:stir_fried_shulker_meat",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

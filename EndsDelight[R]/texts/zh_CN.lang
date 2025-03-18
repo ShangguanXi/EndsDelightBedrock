@@ -76,3 +76,5 @@ item.ends_delight:shulker_omelette_mixture=潜影煎混合物
 item.ends_delight:shulker_omelette=潜影煎
 item.ends_delight:ender_noodle=末影汤面
 item.ends_delight:ender_bamboo_rice=末影竹筒饭
+
+ends_delight:itemGroup.name.miscItem=末地乐事-杂项物品

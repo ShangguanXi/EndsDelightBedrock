@@ -12,7 +12,7 @@
       "identifier": "ends_delight:ender_pearl_grain",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.items"
+        "group": "ends_delight:itemGroup.name.miscItem"
       }
     }
   }

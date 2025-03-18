@@ -12,7 +12,7 @@
       "identifier": "ends_delight:half_dragon_egg_shell",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.items"
+        "group": "ends_delight:itemGroup.name.miscItem"
       }
     }
   }

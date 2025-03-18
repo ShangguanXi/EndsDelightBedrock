@@ -21,7 +21,7 @@
       "identifier": "ends_delight:shulker_omelette",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

@@ -6,13 +6,13 @@
         "uuid": "B14B5590-E337-2FC1-2354-0EB4B27D2B87",
         "version": [
             3,
-            0,
+            2,
             0
         ],
         "min_engine_version": [
             1,
             21,
-            20
+            70
         ]
     },
     "modules": [
@@ -22,7 +22,7 @@
             "uuid": "CEE3EA1B-FA60-7471-2F5A-D5BE03A9DB82",
             "version": [
                 3,
-                0,
+                2,
                 0
             ]
         },
@@ -33,13 +33,14 @@
             "uuid": "c8290469-77f9-1f71-be52-f38c9e18abb0",
             "version": [
                 3,
-                0,
+                2,
                 0
             ],
             "entry": "scripts/main.js"
         }
     ],
     "metadata": {
+        "product_type": "addon",
         "authors": [
             "Moaswies"
         ]
@@ -49,7 +50,7 @@
             "uuid": "37022D7E-8C68-0FEC-45C4-D23FA5134A58",
             "version": [
                 3,
-                0,
+                2,
                 0
             ]
         },

@@ -21,7 +21,7 @@
       "identifier": "ends_delight:ender_sausage",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.cookedFood"
+        "group": "farmersdelight:itemGroup.name.cookedFood"
       }
     }
   }

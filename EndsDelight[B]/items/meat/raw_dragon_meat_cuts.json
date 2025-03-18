@@ -27,7 +27,7 @@
       "identifier": "ends_delight:raw_dragon_meat_cuts",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }

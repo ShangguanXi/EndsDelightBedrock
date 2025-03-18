@@ -1,0 +1,20 @@
+{
+   "format_version": "1.21.70",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+       
+         {
+            "category_name": "items",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "ends_delight:beetroot_crate",
+                     "name": "ends_delight:itemGroup.name.miscItem"
+                  },
+                  "items": []
+               }
+            ]
+         }
+      ]
+   }
+}

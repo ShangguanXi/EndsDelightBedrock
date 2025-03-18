@@ -17,7 +17,7 @@
       "identifier": "ends_delight:non_hatchable_dragon_egg",
       "menu_category": {
         "category": "items",
-        "group": "itemGroup.name.items"
+        "group": "ends_delight:itemGroup.name.miscItem"
       }
     }
   }

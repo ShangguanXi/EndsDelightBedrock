@@ -21,7 +21,7 @@
       "identifier": "ends_delight:liquid_dragon_egg",
       "menu_category": {
         "category": "nature",
-        "group": "itemGroup.name.rawFood"
+        "group": "farmersdelight:itemGroup.name.rawFood"
       }
     }
   }

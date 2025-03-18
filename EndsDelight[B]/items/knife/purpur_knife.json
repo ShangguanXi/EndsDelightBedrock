@@ -140,7 +140,7 @@
       "identifier": "ends_delight:purpur_knife",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.sword"
+        "group": "farmersdelight:itemGroup.name.knife"
       }
     }
   }

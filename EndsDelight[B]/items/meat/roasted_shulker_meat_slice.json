@@ -21,7 +21,7 @@
       "identifier": "ends_delight:roasted_shulker_meat_slice",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.cookedFood"
+        "group": "farmersdelight:itemGroup.name.cookedFood"
       }
     }
   }

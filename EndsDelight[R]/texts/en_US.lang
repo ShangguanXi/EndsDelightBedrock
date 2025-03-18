@@ -74,3 +74,5 @@ item.ends_delight:shulker_omelette_mixture=Shulker Omelette Mixture
 item.ends_delight:shulker_omelette=Shulker Omelette
 item.ends_delight:ender_noodle=Ender Noodle
 item.ends_delight:ender_bamboo_rice=Ender Bamboo Rice
+
+ends_delight:itemGroup.name.miscItem=End's Delight-Misc Item

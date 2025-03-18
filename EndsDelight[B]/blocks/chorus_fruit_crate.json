@@ -4,7 +4,8 @@
         "description": {
             "identifier": "ends_delight:chorus_fruit_crate",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.crate"
             }
         },
         "components": {
@@ -26,7 +27,7 @@
                 "explosion_resistance": 3
             },
             "minecraft:geometry": "geometry.block",
-            "tag:wood":{}
+            "tag:wood": {}
         }
     }
 }

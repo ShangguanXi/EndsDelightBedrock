@@ -26,7 +26,7 @@
       "identifier": "ends_delight:roasted_dragon_meat_cuts",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.cookedFood"
+        "group": "farmersdelight:itemGroup.name.cookedFood"
       }
     }
   }

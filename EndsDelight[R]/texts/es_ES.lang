@@ -74,3 +74,5 @@ item.ends_delight:shulker_omelette_mixture=Mezcla para Tortilla de Shulker
 item.ends_delight:shulker_omelette=Tortilla de Shulker
 item.ends_delight:ender_noodle=Fideos de Ender
 item.ends_delight:ender_bamboo_rice=Arroz de Bambú de Ender
+
+ends_delight:itemGroup.name.miscItem=End's Delight-Misc Item

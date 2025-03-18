@@ -21,7 +21,7 @@
       "identifier": "ends_delight:ender_bamboo_rice",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }
