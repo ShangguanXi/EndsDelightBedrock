@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/liquid_dragon_egg"
             }, 
-            "identifier": "farmersdelight:skillet_liquid_dragon_egg"
+            "identifier": "ends_delight:skillet_liquid_dragon_egg"
         }
     }
 }

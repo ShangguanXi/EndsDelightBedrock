@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_ender_sausage"
             }, 
-            "identifier": "farmersdelight:skillet_raw_ender_sausage"
+            "identifier": "ends_delight:skillet_raw_ender_sausage"
         }
     }
 }

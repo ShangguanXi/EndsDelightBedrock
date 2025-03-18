@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shulker_omelette_mixture"
             }, 
-            "identifier": "farmersdelight:skillet_shulker_omelette_mixture"
+            "identifier": "ends_delight:skillet_shulker_omelette_mixture"
         }
     }
 }

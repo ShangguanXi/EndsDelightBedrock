@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_dragon_meat_cuts"
             }, 
-            "identifier": "farmersdelight:stove_raw_dragon_meat_cuts"
+            "identifier": "ends_delight:stove_raw_dragon_meat_cuts"
         }
     }
 }

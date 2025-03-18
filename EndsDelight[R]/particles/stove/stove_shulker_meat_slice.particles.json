@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shulker_meat_slice"
             }, 
-            "identifier": "farmersdelight:stove_shulker_meat_slice"
+            "identifier": "ends_delight:stove_shulker_meat_slice"
         }
     }
 }
