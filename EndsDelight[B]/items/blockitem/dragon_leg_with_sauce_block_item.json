@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
@@ -13,7 +13,7 @@
       "minecraft:max_stack_size": 1
     },
     "description": {
-      "identifier": "ends_delight:dragon_leg_with_sauce_block_item",
+      "identifier": "ends_delight:dragon_leg_with_sauce_block",
       "menu_category": {
         "category": "equipment",
         "group": "farmersdelight:itemGroup.name.miscFood"

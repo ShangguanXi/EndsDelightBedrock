@@ -693,7 +693,7 @@
     ],
     "controls": [
       {
-        "steamed_dragon_egg_block_item@chest.cooking_pot_recipe": {
+        "steamed_dragon_egg_block@chest.cooking_pot_recipe": {
           "texture": "textures/gui/recipe/cooking_recipe",
           "offset": [
             37.5,

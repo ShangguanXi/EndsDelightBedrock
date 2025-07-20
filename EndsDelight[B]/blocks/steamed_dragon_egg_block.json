@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "ends_delight:steamed_dragon_egg_block",
@@ -105,9 +105,8 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
+            "minecraft:geometry": "geometry.dragon_meat_stew_stage1",
+            "farmersdelight:interact": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 2.0
             },
@@ -149,8 +148,7 @@
                     14.0
                 ]
             },
-            "tag:farmersdelight.blockfood:4-item.minecraft:bowl": {},
-            "tag:farmersdelight:blockfood": {}
+            "tag:farmersdelight.blockfood:4-item.minecraft:bowl": {}
         }
     }
 }

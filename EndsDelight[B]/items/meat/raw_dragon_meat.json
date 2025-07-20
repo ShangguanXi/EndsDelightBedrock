@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -12,16 +12,27 @@
           "default": "raw_dragon_meat"
         }
       },
+      "farmersdelight:cookable": {
+        "result": "ends_delight:roasted_dragon_meat"
+      },
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["ends_delight:raw_dragon_meat_cuts", 2]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
+      },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:can_cut.tag.farmersdelight:is_knife",
-          "farmersdelight:can_cook",
           "ends_delight:raw_dragon_meat"
         ]
       },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
-        "use_duration": 1.6
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
       }
     },
     "description": {
