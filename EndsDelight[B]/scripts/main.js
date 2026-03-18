@@ -1,5 +1,5 @@
 import { SucculentComponent } from "./customComponents/blocks/SucculentComponent";
-import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+import { CookingPotRecipeRegister } from "./Recipe/CookingPotRecipeRegister";
 import { Foodsregister } from "./register/Foodsregister";
 import { LootingRegister } from "./register/LootingRegister";
 import { BlockFood } from "./blocks/BlockFood";
