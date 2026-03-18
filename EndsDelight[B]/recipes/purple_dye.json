@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "minecraft:purple_dye"
+            "identifier": "ends_delight:purple_dye"
         },
         "ingredients": [
             {

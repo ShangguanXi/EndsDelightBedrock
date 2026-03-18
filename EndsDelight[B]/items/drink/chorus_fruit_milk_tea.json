@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.80",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:cooldown": {
@@ -19,14 +19,15 @@
       },
       "minecraft:use_animation": "drink",
       "minecraft:use_modifiers": {
-        "use_duration": 1.6
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
       }
     },
     "description": {
       "identifier": "ends_delight:chorus_fruit_milk_tea",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

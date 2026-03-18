@@ -7,21 +7,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { WorldInitializeAfterEvent, world } from "@minecraft/server";
+import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
+import { cookingPotRecipes } from "../Recipe/CookingPotRecipes";
 let register = true;
 export class CookingPotRecipeRegister {
     register(args) {
-        if (register) {
-            world.getDimension("overworld").runCommandAsync("function ends_delight/recipe_registries");
-            register = false;
-        }
+        system.runInterval(() => {
+            if (register) {
+                for (let i = 0; i < cookingPotRecipes.length; i++) {
+                    cookingPotRecipes[i];
+                    const recipe = JSON.stringify(cookingPotRecipes[i]);
+                    world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cooking_pot_recipe ${recipe}`);
+                }
+                register = false;
+            }
+        });
     }
 }
 __decorate([
-    EventAPI.register(world.afterEvents.worldInitialize),
+    EventAPI.register(world.afterEvents.worldLoad),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [WorldInitializeAfterEvent]),
+    __metadata("design:paramtypes", [WorldLoadAfterEvent]),
     __metadata("design:returntype", void 0)
 ], CookingPotRecipeRegister.prototype, "register", null);
-//# sourceMappingURL=CookingPotRecipeRegister.js.map

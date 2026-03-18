@@ -1,9 +1,11 @@
-import { ChorusSucculentComponentRegister } from "./customComponents/blocks/SucculentComponent";
-import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+import { SucculentComponent } from "./customComponents/blocks/SucculentComponent";
+import { CookingPotRecipeRegister } from "./Recipe/CookingPotRecipeRegister";
 import { Foodsregister } from "./register/Foodsregister";
 import { LootingRegister } from "./register/LootingRegister";
+import { BlockFood } from "./blocks/BlockFood";
 new Foodsregister();
 new LootingRegister();
 new CookingPotRecipeRegister();
-new ChorusSucculentComponentRegister();
+new SucculentComponent();
+new BlockFood();
 //# sourceMappingURL=main.js.map

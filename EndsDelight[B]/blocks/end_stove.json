@@ -1,10 +1,11 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "ends_delight:end_stove",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.cooker"
             },
             "states": {
                 "farmersdelight:is_working": [
@@ -16,7 +17,8 @@
                 "minecraft:placement_direction": {
                     "enabled_states": [
                         "minecraft:cardinal_direction"
-                    ]
+                    ],
+                    "y_rotation_offset": 180.0
                 }
             }
         },
@@ -27,7 +29,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            180,
+                            0,
                             0
                         ]
                     }
@@ -39,7 +41,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            0,
+                            180,
                             0
                         ]
                     }
@@ -51,7 +53,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            270,
+                            90,
                             0
                         ]
                     }
@@ -63,7 +65,7 @@
                     "minecraft:transformation": {
                         "rotation": [
                             0,
-                            90,
+                            270,
                             0
                         ]
                     }
@@ -94,16 +96,24 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "end_stove_side"
+                            "texture": "end_stove_side",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
                         },
                         "up": {
-                            "texture": "end_stove_top_on"
+                            "texture": "end_stove_top_on",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
                         },
                         "down": {
-                            "texture": "end_stove_bottom"
+                            "texture": "end_stove_bottom",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
                         },
                         "north": {
-                            "texture": "end_stove_front_on"
+                            "texture": "end_stove_front_on",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
                         }
                     },
                     "minecraft:light_emission": 12,
@@ -112,16 +122,28 @@
             }
         ],
         "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "end_stove_side"
+                },
+                "up": {
+                    "texture": "end_stove_top"
+                },
+                "down": {
+                    "texture": "end_stove_bottom"
+                },
+                "north": {
+                    "texture": "end_stove_front"
+                }
+            },
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 6
             },
-            "minecraft:custom_components": [
-                "farmersdelight:stove"
-            ],
-            "minecraft:geometry": "geometry.block",
+            "farmersdelight:stove": {},
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "tag:farmersdelight:stove": {}
         }
     }

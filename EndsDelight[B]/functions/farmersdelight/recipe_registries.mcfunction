@@ -1,0 +1,1 @@
+scoreboard objectives add farmersdelight_ends_delight_cutting_board dummy

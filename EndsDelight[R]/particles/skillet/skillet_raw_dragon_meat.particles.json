@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/raw_dragon_meat"
             }, 
-            "identifier": "farmersdelight:skillet_raw_dragon_meat"
+            "identifier": "ends_delight:skillet_raw_dragon_meat"
         }
     }
 }

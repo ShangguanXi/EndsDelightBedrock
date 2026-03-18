@@ -45,7 +45,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shulker_meat"
             }, 
-            "identifier": "farmersdelight:skillet_shulker_meat"
+            "identifier": "ends_delight:skillet_shulker_meat"
         }
     }
 }

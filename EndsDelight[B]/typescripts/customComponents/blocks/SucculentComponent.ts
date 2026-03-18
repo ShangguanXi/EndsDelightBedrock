@@ -1,10 +1,10 @@
-import { Dimension, Vector3, BlockCustomComponent, BlockComponentPlayerInteractEvent, Container, EntityInventoryComponent, world, BlockComponentRandomTickEvent, WorldInitializeBeforeEvent } from "@minecraft/server";
+import { Dimension, system, BlockCustomComponent, BlockComponentPlayerInteractEvent, Container, EntityInventoryComponent, world, BlockComponentRandomTickEvent, GameMode, StartupEvent } from "@minecraft/server";
 import { ItemAPI } from "../../lib/ItemAPI";
 import { EventAPI } from "../../lib/EventAPI";
 
 
 
-class SucculentComponent implements BlockCustomComponent {
+export class SucculentComponent implements BlockCustomComponent {
 
     constructor() {
         this.onPlayerInteract = this.onPlayerInteract.bind(this);
@@ -21,8 +21,8 @@ class SucculentComponent implements BlockCustomComponent {
         const container: Container | undefined = player.getComponent(EntityInventoryComponent.componentId)?.container;
         try {
             if (itemId == "minecraft:bone_meal") {
-                world.playSound("item.bone_meal.use", block.location)
-                if (player?.getGameMode() == "creative" && (block.typeId == "ends_delight:chorus_succulent" || block.typeId == "ends_delight:chorus_succulent2")) {
+                block.dimension.playSound("item.bone_meal.use", block.location)
+                if (player.getGameMode() == GameMode.Creative && (block.typeId == "ends_delight:chorus_succulent" || block.typeId == "ends_delight:chorus_succulent2")) {
                     dimension.spawnParticle("minecraft:crop_growth_emitter", { x: block.location.x + 0.5, y: block.location.y + 0.5, z: block.location.z + 0.5 });
                     dimension.setBlockType(block.location, "ends_delight:chorus_succulent3")
                 }
@@ -46,14 +46,14 @@ class SucculentComponent implements BlockCustomComponent {
                 if (block.typeId == "ends_delight:chorus_succulent") {
                     dimension.setBlockType(block.location, "ends_delight:chorus_succulent2")
                     if (!container) return;
-                    if (player.getGameMode() == "creative") return;
+                    if (player.getGameMode() == GameMode.Creative) return;
                     ItemAPI.clear(player, player?.selectedSlotIndex)
 
                 };
                 if (block.typeId == "ends_delight:chorus_succulent2") {
                     dimension.setBlockType(block.location, "ends_delight:chorus_succulent3")
                     if (!container) return;
-                    if (player.getGameMode() == "creative") return;
+                    if (player.getGameMode() == GameMode.Creative) return;
                     ItemAPI.clear(player, player?.selectedSlotIndex)
                 }
             }
@@ -73,12 +73,11 @@ class SucculentComponent implements BlockCustomComponent {
         if (block.typeId == "ends_delight:chorus_succulent2") {
             dimension.setBlockType(block.location, "ends_delight:chorus_succulent3")
         }
+
+   
     }
-}
-export class ChorusSucculentComponentRegister {
-    @EventAPI.register(world.beforeEvents.worldInitialize)
-    register(args: WorldInitializeBeforeEvent) {
+    @EventAPI.register(system.beforeEvents.startup)
+    register(args: StartupEvent) {
         args.blockComponentRegistry.registerCustomComponent('ends_delight:chorus_succulent', new SucculentComponent());
     }
-
 }

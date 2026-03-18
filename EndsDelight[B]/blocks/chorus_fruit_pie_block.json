@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
-            "identifier": "ends_delight:chorus_fruit_pie_block",
+            "identifier": "ends_delight:chorus_fruit_pie",
             "menu_category": {
                 "category": "none"
             },
@@ -98,9 +98,8 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
+            "minecraft:geometry": "geometry.pie",
+            "farmersdelight:interact":{},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
@@ -150,7 +149,6 @@
                     12.0
                 ]
             },
-            "tag:farmersdelight:pie": {},
             "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife": {}
         }
     }

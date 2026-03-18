@@ -14,7 +14,9 @@ export class LootingRegister {
         if (!equipment) return;
         const onFire = hurtEntity.getComponent('minecraft:onfire')?.onFireTicksRemaining;
         const mainHand = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
-        if (!mainHand?.hasTag('farmersdelight:is_knife')) return;
+        const itemStack = mainHand.getItem()
+        if (!itemStack) return;
+        if (!itemStack.getComponent("farmersdelight:increase_production")) return;
         const health = hurtEntity.getComponent('minecraft:health');
         if (!health?.currentValue && hurtEntity.typeId === 'minecraft:ender_dragon') {
             ItemAPI.spawn(hurtEntity, 'ends_delight:dragon_leg', 2);

@@ -1,10 +1,11 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "ends_delight:chorus_fruit_crate",
             "menu_category": {
-                "category": "items"
+                "category": "items",
+                "group": "farmersdelight:itemGroup.name.crate"
             }
         },
         "components": {
@@ -25,8 +26,8 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 3
             },
-            "minecraft:geometry": "geometry.block",
-            "tag:wood":{}
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "tag:wood": {}
         }
     }
 }

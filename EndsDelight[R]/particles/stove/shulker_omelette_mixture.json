@@ -53,7 +53,7 @@
                 "material": "particles_alpha", 
                 "texture": "textures/items/shulker_omelette_mixture"
             }, 
-            "identifier": "farmersdelight:stove_shulker_omelette_mixture"
+            "identifier": "ends_delight:stove_shulker_omelette_mixture"
         }
     }
 }
