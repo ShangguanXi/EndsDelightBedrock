@@ -10,15 +10,6 @@
         "textures": {
           "default": "chorus_fruit_pie"
         }
-      },
-      "farmersdelight:cuttable": {
-        "loot": [
-          ["ends_delight:chorus_fruit_pie_slice", 4]
-        ],
-        "tool": {
-          "type": "tag",
-          "name": "farmersdelight:is_knife"
-        }
       }
     },
     "description": {

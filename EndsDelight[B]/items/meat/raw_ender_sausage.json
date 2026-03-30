@@ -12,9 +12,6 @@
           "default": "raw_ender_sausage"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:ender_sausage"
-      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6,

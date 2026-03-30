@@ -12,9 +12,6 @@
           "default": "liquid_dragon_egg"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:fried_dragon_egg"
-      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6,

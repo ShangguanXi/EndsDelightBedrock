@@ -12,9 +12,6 @@
           "default": "shulker_meat_slice"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:roasted_shulker_meat_slice"
-      },
       "minecraft:tags": {
         "tags": [
           "ends_delight:shulker_meat"

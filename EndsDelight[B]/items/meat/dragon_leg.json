@@ -12,16 +12,6 @@
           "default": "dragon_leg"
         }
       },
-      "farmersdelight:cuttable": {
-        "loot": [
-          ["ends_delight:raw_dragon_meat", 2],
-          ["minecraft:bone_meal", 1]
-        ],
-        "tool": {
-          "type": "tag",
-          "name": "farmersdelight:is_knife"
-        }
-      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6,

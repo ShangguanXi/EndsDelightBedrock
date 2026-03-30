@@ -12,9 +12,6 @@
           "default": "shulker_omelette_mixture"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:shulker_omelette"
-      },
       "minecraft:use_animation": "eat",
       "minecraft:use_modifiers": {
         "use_duration": 1.6,

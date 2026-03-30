@@ -12,18 +12,6 @@
           "default": "raw_dragon_meat"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:roasted_dragon_meat"
-      },
-      "farmersdelight:cuttable": {
-        "loot": [
-          ["ends_delight:raw_dragon_meat_cuts", 2]
-        ],
-        "tool": {
-          "type": "tag",
-          "name": "farmersdelight:is_knife"
-        }
-      },
       "minecraft:tags": {
         "tags": [
           "ends_delight:raw_dragon_meat"

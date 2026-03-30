@@ -6,16 +6,6 @@
         "textures": {
           "default": "non_hatchable_dragon_egg"
         }
-      },
-      "farmersdelight:cuttable": {
-        "loot": [
-          ["ends_delight:dragon_egg_shell", 2],
-          ["ends_delight:liquid_dragon_egg", 1]
-        ],
-        "tool": {
-          "type": "item",
-          "name": "minecraft:nether_star"
-        }
       }
     },
     "description": {

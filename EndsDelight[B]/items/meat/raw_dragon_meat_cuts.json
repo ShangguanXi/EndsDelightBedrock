@@ -7,9 +7,6 @@
         "nutrition": 3,
         "saturation_modifier": 0.3
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:roasted_dragon_meat_cuts"
-      },
       "minecraft:icon": {
         "textures": {
           "default": "raw_dragon_meat_cuts"

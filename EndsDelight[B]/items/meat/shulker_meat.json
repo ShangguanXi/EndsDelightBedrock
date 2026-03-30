@@ -12,18 +12,6 @@
           "default": "shulker_meat"
         }
       },
-      "farmersdelight:cookable": {
-        "result": "ends_delight:roasted_shulker_meat"
-      },
-      "farmersdelight:cuttable": {
-        "loot": [
-          ["ends_delight:shulker_meat_slice", 2]
-        ],
-        "tool": {
-          "type": "tag",
-          "name": "farmersdelight:is_knife"
-        }
-      },
       "minecraft:tags": {
         "tags": [
           "ends_delight:shulker_meat"

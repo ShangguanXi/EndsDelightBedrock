@@ -33,6 +33,10 @@
           "event": "farmersdelight:stove_tick"
         }
       },
+      "minecraft:inventory": {
+        "inventory_size": 6,
+        "private": true
+      },
       "minecraft:persistent": {},
       "minecraft:physics": {
         "has_collision": false,
