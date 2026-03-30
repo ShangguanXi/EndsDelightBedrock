@@ -33,19 +33,22 @@
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
                 "components": {
-                    "minecraft:geometry": "geometry.pie_slice1"
+                    "minecraft:geometry": "geometry.pie_slice1",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
                 "components": {
-                    "minecraft:geometry": "geometry.pie_slice2"
+                    "minecraft:geometry": "geometry.pie_slice2",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
                 "components": {
-                    "minecraft:geometry": "geometry.pie_slice3"
+                    "minecraft:geometry": "geometry.pie_slice3",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json"
                 }
             },
             {
@@ -99,7 +102,7 @@
         ],
         "components": {
             "minecraft:geometry": "geometry.pie",
-            "farmersdelight:interact":{},
+            "farmersdelight:interact": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
@@ -149,7 +152,12 @@
                     12.0
                 ]
             },
-            "tag:farmersdelight.pie:3-tag.farmersdelight:is_knife": {}
+            "farmersdelight:pastry": {
+                "slice": "ends_delight:chorus_fruit_pie_slice",
+                "counter": "farmersdelight:food_block_stage",
+                "servings": 4
+            },
+            "tag:farmersdelight:pie": {}
         }
     }
 }

@@ -85,7 +85,8 @@
                             13.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -115,7 +116,8 @@
                             13.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -145,7 +147,8 @@
                             13.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -175,7 +178,8 @@
                             13.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -205,7 +209,8 @@
                             8.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -235,7 +240,8 @@
                             5.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -265,7 +271,8 @@
                             2.0,
                             16.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/dragon_leg_with_sauce_block_over.json"
                 }
             },
             {
@@ -353,7 +360,12 @@
                     "render_method": "alpha_test"
                 }
             },
-            "tag:farmersdelight.blockfood:7-item.minecraft:bowl": {}
+            "farmersdelight:dish": {
+                "has_leftovers": true,
+                "servings": 7,
+                "contents": "ends_delight:dragon_leg_with_sauce",
+                "utensil": "minecraft:bowl"
+            }
         }
     }
 }

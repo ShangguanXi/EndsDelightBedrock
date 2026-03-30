@@ -52,7 +52,8 @@
                             6.0,
                             12.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/grilled_shulker_block_over.json"
                 }
             },
             {
@@ -82,7 +83,8 @@
                             6.0,
                             12.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/grilled_shulker_block_over.json"
                 }
             },
             {
@@ -112,7 +114,8 @@
                             6.0,
                             12.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/grilled_shulker_block_over.json"
                 }
             },
             {
@@ -142,7 +145,8 @@
                             6.0,
                             12.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/grilled_shulker_block_over.json"
                 }
             },
             {
@@ -178,7 +182,8 @@
                             3.0,
                             12.0
                         ]
-                    }
+                    },
+                    "minecraft:loot": "loot_tables/ends_delight/food_block/grilled_shulker_block_over.json"
                 }
             },
             {
@@ -255,7 +260,12 @@
                     "render_method": "alpha_test"
                 }
             },
-            "tag:farmersdelight.blockfood:4-item.minecraft:bowl": {}
+            "farmersdelight:dish": {
+                "has_leftovers": true,
+                "servings": 4,
+                "contents": "ends_delight:grilled_shulker",
+                "utensil": "minecraft:bowl"
+            }
         }
     }
 }
